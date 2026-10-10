@@ -24,4 +24,8 @@ grant select on public.productos to anon;
 insert into public.productos (nombre, descripcion, precio, stock) values
   ('Set Ciudad Bomberos', 'Estación + 2 camiones', 45000, 10),
   ('Nave Espacial', '320 piezas', 32000, 15),
-  ('Castillo Medieval', 'Incluye 5 minifiguras', 68000, 5);
+  ('Castillo Medieval', 'Incluye 5 minifiguras', 68000, 5),
+  ('Barco Pirata', 'Incluye cañones y 4 minifiguras', 54000, 8),
+  ('Auto de Carreras', 'Modelo Technic, 450 piezas', 39000, 12),
+  ('Granja Feliz', 'Granero, tractor y animales', 41000, 10),
+  ('Dinosaurio T-Rex', 'Articulado, 600 piezas', 59000, 6);

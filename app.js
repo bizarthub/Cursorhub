@@ -2,6 +2,10 @@ const DEMO_PRODUCTS = [
   { id: 1, nombre: "Set Ciudad Bomberos", descripcion: "Estación + 2 camiones", precio: 45000, imagen_url: "" },
   { id: 2, nombre: "Nave Espacial", descripcion: "320 piezas", precio: 32000, imagen_url: "" },
   { id: 3, nombre: "Castillo Medieval", descripcion: "Incluye 5 minifiguras", precio: 68000, imagen_url: "" },
+  { id: 4, nombre: "Barco Pirata", descripcion: "Incluye cañones y 4 minifiguras", precio: 54000, imagen_url: "" },
+  { id: 5, nombre: "Auto de Carreras", descripcion: "Modelo Technic, 450 piezas", precio: 39000, imagen_url: "" },
+  { id: 6, nombre: "Granja Feliz", descripcion: "Granero, tractor y animales", precio: 41000, imagen_url: "" },
+  { id: 7, nombre: "Dinosaurio T-Rex", descripcion: "Articulado, 600 piezas", precio: 59000, imagen_url: "" },
 ];
 
 const $ = (id) => document.getElementById(id);
