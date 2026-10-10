@@ -3,41 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página de Ejemplo</title>
+  <title>BrickShop - Legos</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <div class="logo">MiSitio</div>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+    <div class="logo">🧱 BrickShop</div>
+    <button id="cart-btn" class="cart-btn">Carrito (<span id="cart-count">0</span>)</button>
   </header>
-  <section class="hero" id="inicio">
-    <h1>Bienvenido a mi página web</h1>
-    <p>Este es un sitio de ejemplo creado con HTML y CSS, listo para desplegar en Vercel.</p>
-    <a href="#servicios" class="btn">Saber más</a>
+
+  <section class="hero">
+    <h1>Legos para armar tu mundo</h1>
+    <p>Sets originales, envíos a todo el país.</p>
   </section>
 
-  <section class="features" id="servicios">
-    <div class="card">
-      <h3>⚡ Rápido</h3>
-      <p>Un solo archivo estático que carga al instante.</p>
-    </div>
-    <div class="card">
-      <h3>📱 Responsive</h3>
-      <p>Se adapta a móviles, tablets y ordenadores.</p>
-    </div>
-    <div class="card">
-      <h3>🚀 Fácil de desplegar</h3>
-      <p>Súbelo a Vercel y compártelo con el mundo.</p>
-    </div>
-  </section>
+  <main>
+    <p id="status" class="status">Cargando productos...</p>
+    <div id="products" class="products"></div>
+  </main>
 
-  <footer id="contacto">
-    © 2026 MiSitio · Hecho con ❤️
-  </footer>
+  <aside id="cart" class="cart hidden">
+    <h2>Tu carrito</h2>
+    <ul id="cart-items"></ul>
+    <p class="total">Total: <strong id="cart-total">$0</strong></p>
+    <button id="cart-close" class="btn secondary">Cerrar</button>
+  </aside>
+
+  <footer>© 2026 BrickShop · Proyecto de prueba</footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
